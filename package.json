@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint Config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scastro37/eslint-config.git"
+  },
+  "keywords": [
+    "ESLint"
+  ],
+  "author": "Sebastian Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scastro37/eslint-config/issues"
+  },
+  "homepage": "https://github.com/scastro37/eslint-config#readme"
+}
