@@ -23,9 +23,16 @@ module.exports = {
       version: "detect",
     },
   },
+  parser: "@babel/eslint-parser",
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 8,
+    ecmaFeatures: {
+      jsx: true,
+      experimentalObjectRestSpread: true,
+    },
+    sourceType: "module",
   },
+
   globals: {
     MyGlobal: true,
   },
