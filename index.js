@@ -4,7 +4,7 @@ const RULES = {
   WARN: "warn",
 };
 
-const configJS = {
+module.exports.configJS = {
   env: {
     browser: true,
     commonjs: true,
@@ -67,5 +67,3 @@ const configJS = {
     "no-unreachable-loop": RULES.WARN,
   },
 };
-
-module.exports = { configJS };
