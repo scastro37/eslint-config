@@ -1,6 +1,6 @@
 {
     "name": "@scastro37/eslint-config",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "description": "ESLint Config",
     "main": "index.js",
     "repository": {
