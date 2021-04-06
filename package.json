@@ -1,6 +1,6 @@
 {
     "name": "@scastro37/eslint-config",
-    "version": "1.0.16",
+    "version": "1.0.17",
     "description": "ESLint Config",
     "main": "index.js",
     "repository": {
@@ -13,13 +13,8 @@
     "author": "Sebastian Castro",
     "license": "MIT",
     "peerDependencies": {
-        "@babel/cli": ">=7",
-        "@babel/core": ">=7",
         "@babel/eslint-parser": ">=7",
-        "@babel/node": ">=7",
         "@babel/plugin-transform-runtime": ">=7",
-        "@babel/preset-env": ">=7",
-        "@babel/register": ">=7",
         "@typescript-eslint/eslint-plugin": ">=4",
         "@typescript-eslint/parser": ">=4",
         "eslint": ">=7",
