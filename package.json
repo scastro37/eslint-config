@@ -1,5 +1,5 @@
 {
-    "name": "eslint-config-test-jr",
+    "name": "@scastro37/eslint-config",
     "version": "1.0.12",
     "description": "ESLint Config",
     "main": "index.js",
