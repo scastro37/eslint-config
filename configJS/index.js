@@ -4,7 +4,7 @@ const RULES = {
   WARN: "warn",
 };
 
-module.exports.configJS = {
+module.exports = {
   env: {
     browser: true,
     commonjs: true,
