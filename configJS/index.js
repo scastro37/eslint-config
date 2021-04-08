@@ -40,7 +40,7 @@ module.exports = {
   rules: {
     "no-console": RULES.WARN,
     "no-template-curly-in-string": RULES.WARN,
-    "no-alert": RULES.ERROR, // custom message (use E-UI Modal)
+    "no-alert": RULES.ERROR,
     "no-eq-null": RULES.ERROR,
     "no-eval": RULES.ERROR,
     "no-implied-eval": RULES.ERROR,
