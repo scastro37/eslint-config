@@ -39,7 +39,7 @@ module.exports = {
     MyGlobal: true,
   },
   rules: {
-    "no-console": RULES.ERROR,
+    "no-console": RULES.WARN,
     "no-template-curly-in-string": RULES.WARN,
     "no-alert": RULES.ERROR, // custom message (use E-UI Modal)
     "no-eq-null": RULES.ERROR,
@@ -66,28 +66,6 @@ module.exports = {
     "prefer-spread": RULES.WARN,
     "prefer-template": RULES.ERROR,
     "no-await-in-loop": RULES.WARN,
-    "no-unreachable-loop": RULES.WARN,
-
-    "@typescript-eslint/ban-ts-ignore": [RULES.OFF],
-    "@typescript-eslint/camelcase": [RULES.OFF],
-    "@typescript-eslint/explicit-function-return-type": [RULES.OFF],
-    "@typescript-eslint/interface-name-prefix": [RULES.OFF],
-    "@typescript-eslint/no-explicit-any": [RULES.OFF],
-    "@typescript-eslint/no-unused-expressions": [RULES.OFF],
-    "@typescript-eslint/no-var-requires": [RULES.OFF],
-    "@typescript-eslint/no-use-before-define": [RULES.OFF],
-    "comma-dangle": [RULES.ERROR, "always-multiline"],
-    "no-async-promise-executor": [RULES.OFF],
-    "no-empty-pattern": [RULES.OFF],
-    "no-undef": [RULES.ERROR],
-    "no-var": [RULES.ERROR],
-    "object-curly-spacing": [RULES.ERROR, "always"],
-    quotes: [RULES.ERROR, "double", { allowTemplateLiterals: true }],
-    semi: [RULES.OFF, "always"],
-    "spaced-comment": [RULES.OFF],
-    "no-prototype-builtins": [RULES.OFF],
-    "sort-keys": [RULES.OFF],
-    "space-before-function-paren": [RULES.OFF],
-    indent: [RULES.OFF],
+    "no-unreachable-loop": RULES.WARN
   },
 };
