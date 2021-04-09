@@ -16,16 +16,15 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "prettier",
+    "prettier"
   ],
   settings: {
     react: {
       version: "detect",
     },
   },
-  parser: "@babel/eslint-parser",
+  parser: "babel-eslint",
   parserOptions: {
-    requireConfigFile: false,
     ecmaVersion: 8,
     ecmaFeatures: {
       jsx: true,
