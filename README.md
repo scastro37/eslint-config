@@ -1,4 +1,4 @@
-This module provides useful help for setting up ESLint rules in the project.
+This module uses ESLint rules to analyze the code. It helps to search for errors in our project, using rules already defined in ESLint to be used in a simple way in different projects.
 
 See official documentation [here](https://eslint.org).
 
