@@ -14,6 +14,14 @@ To use the library you just need to follow the following steps:
 npm i @scastro37/eslint-config
 ```
 - Create the file config **.eslintrc.js** and import the library:
+```js
+├── Example Proyect
+    ├── node_modules
+    ├── src
+    ├── package-lock.json
+    ├── package.json
+    └── .eslintrc.js
+```
 **For poject JS(JavaScript)**
 ```js
 module.exports = { extends: ['@scastro37/eslint-config/configJS'] };
