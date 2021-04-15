@@ -1,3 +1,7 @@
+This module provides useful help for setting up ESLint rules in the project.
+
+See official documentation [here](https://eslint.org).
+
 ## Compatibility
 
 - npm v7 or higher.
