@@ -66,6 +66,6 @@ module.exports = {
     "prefer-spread": RULES.WARN,
     "prefer-template": RULES.ERROR,
     "no-await-in-loop": RULES.WARN,
-    "no-unreachable-loop": RULES.WARN
+    "no-unreachable-loop": RULES.WARN,
   },
 };

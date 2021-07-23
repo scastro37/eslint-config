@@ -16,7 +16,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "prettier"
+    "prettier",
   ],
   settings: {
     react: {
@@ -64,6 +64,5 @@ module.exports = {
     "prefer-spread": RULES.WARN,
     "prefer-template": RULES.ERROR,
     "no-await-in-loop": RULES.WARN,
-    "no-unreachable-loop": RULES.WARN,
   },
 };
